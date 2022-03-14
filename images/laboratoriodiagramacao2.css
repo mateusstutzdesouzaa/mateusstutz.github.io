@@ -1,0 +1,96 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav, ul, li{
+    display: inline;
+    padding: 1%;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+
+}
+nav, a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: white;
+    padding:2%; 
+}
+body{
+    background-color: rgb(206, 199, 199);   
+    margin:0; 
+}
+li{
+    border: 1px solid black;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 100px;
+    height: auto;
+    float: left;
+    padding: 2%,7%,7%,7%;
+
+
+}
+.flex-container_2{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    background-color: white;
+    float: right;
+    padding: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.poligono {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.avatar{
+    float: right;
+    border-radius: 50%; 
+}
+.flex-container span{
+    font-size: 0.7em;
+}
+.flex-container p {
+    text-transform: uppercase;
+    display:inline;
+    font-size:0.7em;
+}
+hr{
+    color: rgb(44, 42, 42);
+}
+.legenda img{
+    float: left;
+    margin-right: 10px;
+}
+footer a{
+    float: right;
+}
+.flex-container_3{
+    background-color: rgb(206, 199, 199);
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: auto;
+    float: right;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.flex-container_4
+{
+    background-color: rgb(206, 199, 199);
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: auto;
+    float: right;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
